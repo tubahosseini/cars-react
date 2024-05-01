@@ -1,41 +1,47 @@
+import black from "../assets/images/black.webp";
+import blue from "../assets/images/blue.webp";
+import gray from "../assets/images/gray.webp";
+import purple from "../assets/images/purple.webp";
+import white from "../assets/images/white.webp";
+import yellow from "../assets/images/yellow.webp";
+
 type card = {
-    image: string;
-    title: string;
-    id: number;
-  };
-  
-  const cardsData: card[] = [
-    {
-      id: 1,
-      image: require('../assets/images/black.png').default,
-      title: 'black car',
-    },
-    {
-      id: 2,
-      image: require('../assets/images/blue.png').default,
-      title: 'blue car',
-    },
-    {
-      id: 3,
-      image: require('../assets/images/gray.jpg').default,
-      title: 'gray car',
-    },
-    {
-      id: 4,
-      image: require('../assets/images/red.png').default,
-      title: 'red car',
-    },
-    {
-      id: 5,
-      image: require('../assets/images/silver.jpg').default,
-      title: 'silver car',
-    },
-    {
-      id: 6,
-      image: require('../assets/images/yellow.png').default,
-      title: 'yellow car',
-    },
-  ];
-  
-  export default cardsData;
-  
+  image: string;
+  title: string;
+  id: number;
+};
+
+const cardsData: card[] = [
+  {
+    id: 1,
+    image: black,
+    title: "black perfume",
+  },
+  {
+    id: 2,
+    image: blue,
+    title: "blue perfume",
+  },
+  {
+    id: 3,
+    image: purple,
+    title: "purple perfume",
+  },
+  {
+    id: 4,
+    image: white,
+    title: "white perfume",
+  },
+  {
+    id: 5,
+    image: gray,
+    title: "gray perfume",
+  },
+  {
+    id: 6,
+    image: yellow,
+    title: "yellow perfume",
+  },
+];
+
+export default cardsData;
